@@ -14,11 +14,11 @@ export class TaskButtonComponent implements OnInit {
 
   constructor() {}
 
-  // toggleSchedule() {
-  //   const nextSchedule =
-  //     this.doAsync.schedule === 'drop' ? 'concurrent' : 'drop';
-  //   this.doAsync.setSchedule(nextSchedule);
-  // }
+  toggleSchedule() {
+    const nextSchedule =
+      this.doAsync.schedule === 'drop' ? 'concurrent' : 'drop';
+    this.doAsync.setSchedule(nextSchedule);
+  }
 
   ngOnInit() {}
 }
