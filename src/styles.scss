@@ -9,9 +9,10 @@ body {
 
 button {
   background-color: rgb(248, 236, 217);
-  border: #876;
+  border: 1px solid #876;
   color: #333;
   font-size: 1.2em;
+  padding: 0.25em 0.75em;
 
   &:hover {
     cursor: pointer;
@@ -19,13 +20,13 @@ button {
 
   &:active {
     background-color: rgb(201, 184, 158);
-    border: rgb(102, 86, 70);
+    border-color: rgb(102, 86, 70);
     color: rgb(0, 0, 0);
   }
   &[disabled],
   &.disabled {
     background-color: rgb(207, 82, 33);
-    border: rgb(102, 30, 2);
+    border-color: rgb(102, 30, 2);
     color: rgb(243, 194, 166);
   }
 }
@@ -35,5 +36,8 @@ button {
 }
 
 .value {
+  display: block;
+  height: 1em;
+  font-size: 0.75em;
   color: #3fc154;
 }
