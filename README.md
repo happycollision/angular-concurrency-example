@@ -1,5 +1,11 @@
 # AcExample
 
+Simple use case for [Angular-Concurrency](https://github.com/happycollision/angular-concurrency)
+
+Use the normal Angular instructions below to run it.
+
+------
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
 
 ## Development server
