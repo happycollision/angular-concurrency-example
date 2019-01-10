@@ -12,8 +12,8 @@
   <!-- The code below is not necessary, just for illustration -->
 
   <div>isRunning: {{ doAsync.isRunning }}</div>
-  <div>concurrency: {{ doAsync.count }}</div>
   <div *ngIf="toggleSchedule">
+    <div>concurrency: {{ doAsync.count }}</div>
     <a href="#" (click)="toggleSchedule()">schedule</a>: {{ doAsync.schedule }}
   </div>
 </div>
