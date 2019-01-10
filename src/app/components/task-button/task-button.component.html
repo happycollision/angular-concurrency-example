@@ -8,4 +8,12 @@
     Fetch<app-spinner *ngIf="doAsync.isRunning"></app-spinner>
   </button>
   <span class="value">{{ doAsync.lastSuccessfulValue }} </span>
+
+  <!-- The code below is not necessary, just for illustration -->
+
+  <div>isRunning: {{ doAsync.isRunning }}</div>
+  <div>concurrency: {{ doAsync.count }}</div>
+  <div *ngIf="toggleSchedule">
+    <a href="#" (click)="toggleSchedule()">schedule</a>: {{ doAsync.schedule }}
+  </div>
 </div>
