@@ -22,10 +22,17 @@ button {
     border: rgb(102, 86, 70);
     color: rgb(0, 0, 0);
   }
+  &[disabled] {
+    background-color: rgb(207, 82, 33);
+    border: rgb(102, 30, 2);
+    color: rgb(243, 194, 166);
+  }
 }
 
-.busy {
-  background-color: rgb(207, 82, 33);
-  border: rgb(102, 30, 2);
-  color: rgb(243, 194, 166);
+.container {
+  padding: 24px 8px;
+}
+
+.value {
+  color: #3fc154;
 }
