@@ -6,9 +6,10 @@ import { DefensiveDropComponent } from './components/defensive-drop/defensive-dr
 import { NormalAsyncComponent } from './components/normal-async/normal-async.component';
 import { SpinnerComponent } from './components/spinner/spinner.component';
 import { DefensiveDestroyComponent } from './components/defensive-destroy/defensive-destroy.component';
+import { TaskButtonComponent } from './components/task-button/task-button.component';
 
 @NgModule({
-  declarations: [AppComponent, DefensiveDropComponent, NormalAsyncComponent, SpinnerComponent, DefensiveDestroyComponent],
+  declarations: [AppComponent, DefensiveDropComponent, NormalAsyncComponent, SpinnerComponent, DefensiveDestroyComponent, TaskButtonComponent],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent]

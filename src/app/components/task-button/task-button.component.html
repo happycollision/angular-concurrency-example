@@ -1,0 +1,11 @@
+<div class="container">
+  <p>A button which does everything... only better</p>
+
+  <button
+    [ngClass]="{ disabled: doAsync.isRunning }"
+    (click)="doAsync.perform()"
+  >
+    Fetch<app-spinner *ngIf="doAsync.isRunning"></app-spinner>
+  </button>
+  completed value: <span class="value">{{ doAsync.lastSuccessfulValue }} </span>
+</div>
