@@ -1,0 +1,8 @@
+<div class="container">
+  <p>A button which protects against errors after unmounting</p>
+
+  <button [disabled]="isWorking" (click)="doAsync()">
+    Fetch<app-spinner *ngIf="isWorking"></app-spinner>
+  </button>
+  completed value: <span class="value">{{ value }} </span>
+</div>
